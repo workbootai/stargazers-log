@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background: #f7fafc;
+  color: #111827;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  color: #4b5563;
+}
+
+#repo-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+#repo-list li {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+#repo-list li:hover {
+  border-color: #9ca3af;
+}
+
+.repo-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+}
+
+.repo-description {
+  margin: 0 0 0.75rem;
+  color: #4b5563;
+}
+
+.repo-meta {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+#loading,
+#error-message {
+  margin-top: 1rem;
+}
+
+#error-message {
+  color: #b91c1c;
+}
