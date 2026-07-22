@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <h1>Stargazers log</h1>
     <p>A log of the repositories I've starred.</p>
+
+    <div id="loading">Loading starred repositories...</div>
+    <div id="error-message" style="display:none"></div>
+    <ul id="repo-list"></ul>
+
+    <script src="script.js"></script>
   </body>
 </html>

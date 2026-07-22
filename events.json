@@ -1,0 +1,20 @@
+[
+  {
+    "name": "octocat/Hello-World",
+    "description": "A simple example repository for GitHub demos.",
+    "url": "https://github.com/octocat/Hello-World",
+    "starredAt": "2026-07-22T10:00:00Z"
+  },
+  {
+    "name": "github/docs",
+    "description": "Documentation and guides for GitHub.",
+    "url": "https://github.com/github/docs",
+    "starredAt": "2026-07-20T14:30:00Z"
+  },
+  {
+    "name": "nodejs/node",
+    "description": "Node.js JavaScript runtime.",
+    "url": "https://github.com/nodejs/node",
+    "starredAt": "2026-07-18T08:45:00Z"
+  }
+]
